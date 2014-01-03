@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+    
+    <TextView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:text="@string/corp_name" />
+    
+    <FrameLayout android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/up_bg"
+            android:contentDescription="@null" />
+        <ImageView android:id="@+id/up_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/line_up"
+            android:visibility="gone"
+            android:contentDescription="@null" />
+    </FrameLayout>
+    
+    <FrameLayout android:id="@+id/down"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/down_bg"
+            android:contentDescription="@null" />
+        <ImageView android:id="@+id/down_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_down"
+            android:visibility="gone"
+            android:contentDescription="@null" />
+    </FrameLayout>
+    
+    <TextView android:id="@+id/speed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:visibility="gone"
+        android:background="@drawable/speed_info_bg" />
+    
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:text="@string/hard_fists" />
+    
+     <TextView android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="8dp"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:text="@string/info_indicator" />
+    
+    <ImageView android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/splash"
+        android:contentDescription="@null" />
+</FrameLayout>

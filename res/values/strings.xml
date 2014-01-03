@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fist Speed</string>
+    
+    <string name="corp_name">iYato Co.,Ltd</string>
+    
+    <string name="copyright">Copyright 2013. All Right Reserved.</string>
+    
+    <string name="hard_fists">Hard fists!</string>
+    
+    <string name="info_indicator">i</string>
+
+</resources>
